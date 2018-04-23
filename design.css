@@ -1,0 +1,116 @@
+body{
+    margin:0px;
+    font-family: Helvetica Neue;
+}
+
+   
+.Container{
+    display:flex;
+    flex-direction: column;
+}
+.navbar{
+    padding-left:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EEECED;
+    height:100px;
+
+}
+
+a{
+   text-decoration: none;
+   padding-right: 30px;
+   color:#7A6667;
+   
+
+}
+#bigPic{
+    width:100%;
+    display: block;
+ 
+}
+.bigPic{
+    position: relative;
+}
+  #circle{
+      height:200px;
+      width:200px;
+      border-radius: 50%;
+      position: absolute;
+      right:17%;
+      bottom:15%;
+     background-image: url("icons/05.png");
+      background-size: cover;
+    color:white;
+    text-align: center;
+  }
+  #freeze{
+     margin-top: 40%;
+      text-align:center;
+  }
+.Healthy{
+    padding-left:20px;
+    background-color:#EEECED;
+    flex-direction: column;
+    height:300px;
+    display:flex;
+    
+   
+}
+.yogurt_para{
+    
+    display: flex;
+    align-items: center;
+}
+.yogurt_para img{
+    margin-top:-9.2%;
+
+}
+.product-title{
+    padding-top: 30px;
+    
+}
+.information{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:-3%;
+    background-color: #C8C10E;
+    height:200px;
+}
+.icons{
+    padding-top:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.icons img{
+    padding-bottom: 10px;
+}
+.network{
+    background:#CB3362;
+    height:200px;
+    
+}
+.networkIcons{
+  text-align: center;
+    margin-top:60px;
+  
+}
+.networkIcons img{
+    margin-right: 20px;
+}
+.network p{
+    text-align: center;
+    color:white;
+}
+.product-title h2{
+    color:#E32A63
+}.product-title h3{
+    color:rgb(112, 109, 111);
+}
+.yogurt_para p{
+color:#7A6667;
+}
